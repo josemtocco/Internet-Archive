@@ -1,1 +1,45 @@
+name: Atualizar playlist M3U
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-playlist
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes offline
+        run: python -m unittest discover -s tests -v
+      - name: Gerar playlist
+        run: python gerar_m3u.py --max-items 100 --verbose
+      - name: Conferir arquivos gerados
+        run: |
+          test -s playlist.m3u
+          grep -q '^#EXTINF:' playlist.m3u
+          python -m json.tool catalogo.json > /dev/null
+      - name: Salvar alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u catalogo.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza playlist M3U automaticamente"
+            git push
+          else
+            echo "Sem alterações para salvar."
+          fi

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-10T04:54:01Z",
+  "updated_at": "2026-10-10T12:05:40Z",
   "source": "Internet Archive (open-license/public-domain filter)",
   "items": [
     {
@@ -251,6 +251,18 @@
       "year": "",
       "creator": "",
       "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "Internet Archive",
+      "misses": 0,
+      "last_status": "active"
+    },
+    {
+      "id": "AshitanoNadjaCNBR/Episódio 31 – Mãe e Filha Que Passam Uns Aos Outros, os Dois Aniversários (Boomerang).mp4",
+      "title": "Ashita no Nadja - Cartoon Network Brasil 2006 (TV-Rip)",
+      "url": "https://archive.org/download/AshitanoNadjaCNBR/Epis%C3%B3dio%2031%20%E2%80%93%20M%C3%A3e%20e%20Filha%20Que%20Passam%20Uns%20Aos%20Outros%2C%20os%20Dois%20Anivers%C3%A1rios%20%28Boomerang%29.mp4",
+      "group": "Filmes em Português",
+      "year": "2006-02-04",
+      "creator": "Toei Animation",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "Internet Archive",
       "misses": 0,
       "last_status": "active"

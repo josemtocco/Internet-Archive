@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12T14:48:06Z",
+  "updated_at": "2026-10-13T00:17:25Z",
   "source": "Internet Archive (open-license/public-domain filter)",
   "items": [
     {
@@ -577,7 +577,7 @@
       "license": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source": "Internet Archive",
       "misses": 0,
-      "last_status": "unknown_preserved"
+      "last_status": "active"
     },
     {
       "id": "my-girl_202510/MY GIRL.mp4",

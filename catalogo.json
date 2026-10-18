@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T10:34:35Z",
+  "updated_at": "2026-10-18T15:33:07Z",
   "source": "Internet Archive (open-license/public-domain filter)",
   "items": [
     {
@@ -217,7 +217,7 @@
       "license": "http://creativecommons.org/publicdomain/mark/1.0/",
       "source": "Internet Archive",
       "misses": 0,
-      "last_status": "active"
+      "last_status": "unknown_preserved"
     },
     {
       "id": "AHISTORIADATERRA-Dublado/A HISTÓRIA DA TERRA - Dublado.mp4",

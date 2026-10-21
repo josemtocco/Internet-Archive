@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T11:22:18Z",
+  "updated_at": "2026-10-21T16:48:49Z",
   "source": "Internet Archive (open-license/public-domain filter)",
   "items": [
     {
@@ -517,7 +517,7 @@
       "license": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "Internet Archive",
       "misses": 0,
-      "last_status": "unknown_preserved"
+      "last_status": "active"
     },
     {
       "id": "MastersOfMoney-Legendado/Hayek - Documentario.mp4",

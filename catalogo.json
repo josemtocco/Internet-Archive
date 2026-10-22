@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22T03:46:31Z",
+  "updated_at": "2026-10-22T11:22:03Z",
   "source": "Internet Archive (open-license/public-domain filter)",
   "items": [
     {
@@ -132,8 +132,8 @@
       "creator": "",
       "license": "http://creativecommons.org/publicdomain/mark/1.0/",
       "source": "Internet Archive",
-      "misses": 0,
-      "last_status": "active"
+      "misses": 1,
+      "last_status": "confirmed_missing"
     },
     {
       "id": "NossaHistoriaComMorganFreeman/The.Story.of.Us.with.Morgan.Freeman.S01E03.720p.WEB-DL.Dublado-Pirateiro.mp4",
@@ -300,8 +300,8 @@
       "creator": "",
       "license": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source": "Internet Archive",
-      "misses": 0,
-      "last_status": "active"
+      "misses": 1,
+      "last_status": "confirmed_missing"
     },
     {
       "id": "DigimonAdventureJetixBrasil/Episódio 02 - Nasce Greymon (Jetix).mp4",

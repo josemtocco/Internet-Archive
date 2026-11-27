@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T21:04:53Z",
+  "updated_at": "2026-11-27T07:18:09Z",
   "source": "Internet Archive (open-license/public-domain filter)",
   "items": [
     {
@@ -122,18 +122,6 @@
       "source": "Internet Archive",
       "misses": 0,
       "last_status": "active"
-    },
-    {
-      "id": "NoJardimDeDarwinDublado/O Grande Debate[mvm].mp4",
-      "title": "No Jardim de Darwin [Dublado] Documentário",
-      "url": "https://archive.org/download/NoJardimDeDarwinDublado/O%20Grande%20Debate%5Bmvm%5D.mp4",
-      "group": "Documentários em Português",
-      "year": "",
-      "creator": "",
-      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
-      "source": "Internet Archive",
-      "misses": 1,
-      "last_status": "confirmed_missing"
     },
     {
       "id": "NossaHistoriaComMorganFreeman/The.Story.of.Us.with.Morgan.Freeman.S01E03.720p.WEB-DL.Dublado-Pirateiro.mp4",
@@ -290,18 +278,6 @@
       "source": "Internet Archive",
       "misses": 0,
       "last_status": "active"
-    },
-    {
-      "id": "corra-querida-corra-2022-1080p-web-dl-dual-5.1/Corra, Querida, Corra 2022 1080p WEB-DL DUAL 5.1.mp4",
-      "title": "Corra, Querida, Corra 2022 1080p WEB DL DUAL 5.1",
-      "url": "https://archive.org/download/corra-querida-corra-2022-1080p-web-dl-dual-5.1/Corra%2C%20Querida%2C%20Corra%202022%201080p%20WEB-DL%20DUAL%205.1.mp4",
-      "group": "Filmes em Português",
-      "year": "",
-      "creator": "",
-      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "source": "Internet Archive",
-      "misses": 1,
-      "last_status": "confirmed_missing"
     },
     {
       "id": "DigimonAdventureJetixBrasil/Episódio 02 - Nasce Greymon (Jetix).mp4",
